@@ -1,3 +1,6 @@
+#https://github.com/josephhurst241/lab11-JH-DC.git
+# Partner 1: Joseph Hurst
+# Partner 2: David Chen
 """
 calculator.py
 - Defines functions used to create a simple calculator
