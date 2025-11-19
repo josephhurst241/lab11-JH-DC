@@ -6,7 +6,7 @@ from calculator import *
 
 class TestCalculator(unittest.TestCase):
 
-    def test_add(self): # 3 assertions
+    def test_add(self):
          output = add(3, 4)
          self.assertEqual(output, 7)
 
