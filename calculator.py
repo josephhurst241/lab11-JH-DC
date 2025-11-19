@@ -22,13 +22,23 @@ def div(a, b):
         raise ZeroDivisionError("Divisor can't be zero")
     return a / b
 
-def log(a,b):
+def logarithm(a,b):
     if b < 0 or a == 1 or a < 0:
         raise ValueError("Log argument and base can't be zero or below and log base can't be equal to 1")
     return math.log(a,b)
 
 def exp(a, b):
     return a ** b
+
+def square_root(a):
+    if a < 0:
+        raise ValueError("Cannot square root a negative number")
+    return math.sqrt(a)
+
+def hypotenuse(a, b):
+    return (a**2 + b**2)**(1/2)
+
+
 
 
 
