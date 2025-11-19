@@ -31,8 +31,8 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(output, 4)
 
     def test_log_invalid_base(self): # 1 assertion
-        with self.assertRaises(ZeroDivisionError):
-            logarithm(7, 0)
+        with self.assertRaises(ValueError):
+            logarithm(0, 7)
     
     def test_log_invalid_argument(self): # 1 assertion
         with self.assertRaises(ValueError):
